@@ -8,7 +8,7 @@ public class WelcomeController {
 	
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello Micorservice in AWS Cloud.";
+		return "Hello Micorservice in AWS Cloud - Version 1.1.";
 	}
 
 }
